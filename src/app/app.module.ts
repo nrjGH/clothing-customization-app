@@ -10,6 +10,9 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { CardComponent } from './card/card.component';
 import { ContactComponent } from './contact/contact.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { TshirtComponent } from './tshirt/tshirt.component';
+import { UsersPageComponent } from './users-page/users-page.component';
+import { ProfilePageComponent } from './profile-page/profile-page.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import { ReactiveFormsModule } from '@angular/forms';
     TshirtCustomizerComponent,
     NavbarComponent,
     CardComponent,
-    ContactComponent
+    ContactComponent,
+    TshirtComponent,
+    UsersPageComponent,
+    ProfilePageComponent
   ],
   imports: [
     BrowserModule,

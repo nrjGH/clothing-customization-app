@@ -2,7 +2,6 @@
     <div class="tshirt-display" [style.background-color]="tshirtColor">
       <img *ngIf="printImage" [src]="printImage" class="print-image" alt="Custom Print">
     </div>
-    
     <div class="color-selector">
       <button (click)="changeColor('#ffffff')">White</button>
       <button (click)="changeColor('#000000')">Black</button>
